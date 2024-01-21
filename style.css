@@ -1,0 +1,23 @@
+/* h1,p,ul,li{
+    text-align:center;
+    color: black;
+    background-color: beige;
+    margin: 10%;
+
+} */
+.para{ /*class selector*/
+    text-align: center;
+    background-color: brown;
+    color: azure;
+}
+
+#list{  /*id selector*/
+    color:maroon;
+    background-color:aquamarine;
+}
+
+*{
+    background-color:aqua;
+    font-family:'Times New Roman', Times, serif;
+}
+

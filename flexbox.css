@@ -1,0 +1,12 @@
+.container{
+    display:flex; /* to display as flex board */
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-evenly; /*to give space between each card*/
+    flex-wrap: wrap;     /*to adjust the width content whether to outflow or not*/
+}
+.item{
+    background-color: blue;
+    padding: 20px;
+    margin: 10px;
+}

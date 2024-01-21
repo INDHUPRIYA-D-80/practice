@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <!--<link rel="stylesheet" href="grid.css">-->
+    <style>
+        @media screen            
+        {.grid-main{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /*3---> to show the contents in 3 division fr makes the page aligned to the frame independent of devices*/
+            background-color: aquamarine;
+        
+        }
+    }
+        .grid-item{
+            color: blue;
+            background-color: rgb(209, 15, 15);
+            border: 10px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="grid-container">
+        <div class="grid-item">01</div>
+        <div class="grid-item">02</div>
+        <div class="grid-item">03</div>
+        <div class="grid-item">04</div>
+        <div class="grid-item">05</div>
+        <div class="grid-item">06</div>
+    </div>-->
+    <div class="grid-main">
+        <div class="grid-item">01</div>
+        <div class="grid-item">02</div>
+        <div class="grid-item">03</div>
+        <div class="grid-item">04</div>
+        <div class="grid-item">05</div>
+        <div class="grid-item">06</div>
+    </div>
+</body>
+</html>
